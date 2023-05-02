@@ -15,7 +15,12 @@ sap.ui.require([
             firstName: "Mikita",
 			lastName: "Mezentseu",
 			enabled: true,
-			panelHeaderText: "Data Binding Basics"
+			address: {
+				street: "Dietmar-Hopp-Allee 16",
+				city: "Walldorf",
+				zip: "69190",
+				country: "Germany"
+			}
 		});
 
         oModel.setDefaultBindingMode(BindingMode.OneWay);
