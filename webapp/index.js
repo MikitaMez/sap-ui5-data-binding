@@ -25,6 +25,7 @@ sap.ui.require([
 				country: "Germany"
 			},
 			salesAmount: 123.777,
+			priceThreshold: 20,
 			currencyCode: "EUR",
 			panelHeaderText: "Data Biunding Basics"
 		});
